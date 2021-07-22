@@ -1,0 +1,16 @@
+.partners {
+  margin-bottom: 165px;
+  .partners__container {
+    padding: 0 165px;
+
+    .section__title {
+      margin-bottom: 40px;
+    }
+
+    .partners__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

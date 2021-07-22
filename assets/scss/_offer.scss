@@ -1,0 +1,69 @@
+.our__offer {
+  margin-bottom: 164px;
+  .our__offer__container {
+    
+    padding: 0 165px;
+
+    .section__title {
+      width: 370px;
+      margin-bottom: 40px;
+    }
+    .our__offer__content {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .our__content__img  {
+        margin-right: 100px;
+      }
+
+      .our__offer__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .our__offer__item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  
+          .our__offer__icon {
+            // width: 30px;
+            margin-right: 40px;
+            align-self: flex-start;
+          }
+          
+          .offer__item__text {
+            margin-bottom: 48px;
+  
+            &:last-child {
+              margin-bottom: 72px;
+            }
+  
+            .our__offer__title {
+              font-weight: 700;
+              margin-bottom: 8px;
+            }
+          }
+        }
+        
+        .btn {
+          background: #FD665E;
+          color: #ffffff;
+
+          padding: 20px 32px;
+          border-radius: 4px;
+
+          font-size: 14px;
+          font-weight: 500;
+          
+          &:hover {
+            background: #FD4E45;
+            transition: all .3s;
+          }          
+        }        
+      }
+    }
+  }
+}

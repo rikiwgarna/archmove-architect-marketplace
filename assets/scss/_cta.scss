@@ -1,0 +1,42 @@
+.cta {
+    margin-bottom: 164px;
+
+  .cta__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 165px;
+    
+    .cta__img {
+      margin-right: 100px;
+      margin-left: -50px;
+    }
+
+    .cta__content {
+
+      .section__title {
+        width: 521px;
+        margin-bottom: 64px;
+      }
+
+      .btn {
+        background: #FD665E;
+        color: #ffffff;
+
+        padding: 20px 32px;
+        border-radius: 4px;
+
+        font-size: 14px;
+        font-weight: 500;
+
+        text-transform: uppercase;
+
+        &:hover {
+          background: #FD4E45;
+          transition: all .3s;
+        }        
+      }
+    }
+  }
+}

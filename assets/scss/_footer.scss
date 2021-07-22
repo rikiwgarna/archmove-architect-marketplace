@@ -1,0 +1,45 @@
+.footer {
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 86px 165px;
+    border-top: 1px solid #f0f0f0;
+    .navigation__container {
+
+      ul {
+        display: flex;
+
+        li {
+          padding: 24px;
+
+          a {
+            font-size: 12px;
+            font-weight: 500;
+            color: #585858;
+
+              &:hover {
+              color: #FD665E;
+              transition: all .3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  p {
+    font-size: 12px;
+
+    a {
+      color: #FD665E;
+    }
+  }
+}

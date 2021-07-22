@@ -1,0 +1,82 @@
+.testimonial {
+  margin-bottom: 164px;
+  
+  .testimonial__container {
+    padding: 0 165px;
+    display: flex;
+    flex-direction: column;
+
+    .section__title {
+      width: 374px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial__content {
+      width: 765px;
+      align-self: flex-end;
+      
+      .testimonial__text {
+        position: relative;
+
+        margin-left: 110px;
+        margin-bottom: 60px;
+        font-size: 27px;
+        font-weight: 300;
+
+        &::before {
+          content: "";
+          width: 60px;
+          height: 60px;
+          background: url(/assets/images/quotes-icon.svg) no-repeat;
+          position: absolute;
+          left: -100px;
+          top: 0;
+        }
+      }
+      .testimonial__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin-left: 110px;
+
+        .testimonial__name {
+          font-weight: 700;
+
+          span {
+            font-weight: 300;
+          }
+        }
+        
+      .arrows {
+        display: flex;
+        align-self: flex-end;
+        justify-self: flex-end;
+
+        .arrow__container {
+          display: flex;
+          align-items: center;
+          padding: 14px;
+          border-radius: 4px;
+          
+          &:hover {
+            background: #F7F7F7;
+            cursor: pointer;
+            transition: all .2s;
+            .arrow__left, .arrow__right {
+              path {
+                transition: all .2s;
+                fill: #FD665E;
+              }
+            }
+          }
+          
+          &:first-child {
+            margin-right: 8px;
+          }
+        }
+      }
+      }
+    }
+  }
+}
